@@ -1,0 +1,9 @@
+.catalog__item_hidden {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .catalog__item_hidden {
+    display: flex;
+  }
+}
