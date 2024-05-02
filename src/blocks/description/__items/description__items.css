@@ -2,6 +2,12 @@
   margin-top: 44px;
 }
 
+@media screen and (max-width: 1280px) {
+  .description__items {
+    margin-top: 25px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .description__items {
     margin-top: 15px;

@@ -4,6 +4,12 @@
   background-color: #f8f8f8;
 }
 
+@media screen and (max-width: 1280px) {
+  .advantages {
+    padding: 70px 30px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .advantages {
     padding: 80px 10px;

@@ -7,6 +7,20 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 1680px) {
+  .description {
+    padding: 110px 100px 130px 100px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .description {
+    padding: 100px 50px 100px 50px;
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .description {
     padding: 80px 19px 80px 12px;

@@ -3,6 +3,12 @@
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 1280px) {
+  .quotes {
+    padding: 70px 50px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .quotes {
     padding: 80px 10px 80px 10px;

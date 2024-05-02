@@ -3,6 +3,12 @@
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 1280px) {
+  .catalog {
+    padding: 70px 70px 70px 30px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .catalog {
     padding: 80px 80px 80px 10px;

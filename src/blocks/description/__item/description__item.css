@@ -8,11 +8,18 @@
   margin-left: 37px;
 }
 
+@media screen and (max-width: 1280px) {
+  .description__item {
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: 0.19px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .description__item {
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.15px;
-    margin-left: 37px; /*/// ПОМЕНЯЙ ОТ ПИКСЕЛ ПЕРФЕКТ*/
   }
 }

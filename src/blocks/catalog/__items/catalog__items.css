@@ -4,6 +4,12 @@
   margin-top: 40px;
 }
 
+@media screen and (max-width: 1280px) {
+  .catalog__items {
+    margin-top: 30px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .catalog__items {
     margin-top: 20px;
