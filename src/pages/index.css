@@ -46,7 +46,7 @@
 @import url(../blocks/advantages/__items/advantages__items.css);
 @import url(../blocks/advantages/__item/advantages__item.css);
 @import url(../blocks/advantages/__image/advantages__image.css);
-@import url(../blocks/advantages/__container/advantages__container.css);
+/* @import url(../blocks/advantages/__container/advantages__container.css); */
 @import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
 @import url(../blocks/advantages/__text/advantages__text.css);
 
@@ -55,7 +55,7 @@
 @import url(../blocks/news/__title/news__title.css);
 @import url(../blocks/news/__items/news__items.css);
 @import url(../blocks/news/__item/news__item.css);
-@import url(../blocks/news/__image/news__image.css);
+/* @import url(../blocks/news/__image/news__image.css); */
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__text/news__text.css);
 
@@ -75,8 +75,3 @@
 /*Блок footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-/* * {
-    border: 0.5px solid red;
-  } */
