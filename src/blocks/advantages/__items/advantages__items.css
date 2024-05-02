@@ -1,0 +1,6 @@
+.advantages__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 56px;
+  margin-top: 40px;
+}

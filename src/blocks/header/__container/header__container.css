@@ -1,0 +1,18 @@
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: end; /*Выравнивание по правому краю*/
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  gap: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .header__container {
+    font-size: 10px;
+    line-height: 14px;
+    gap: 0;
+  }
+}

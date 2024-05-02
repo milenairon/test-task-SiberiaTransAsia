@@ -1,0 +1,5 @@
+.catalog__items {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+}

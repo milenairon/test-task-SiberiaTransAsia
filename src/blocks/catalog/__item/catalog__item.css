@@ -1,0 +1,13 @@
+.catalog__item {
+  width: 269px;
+  height: 214px;
+  border: 1px solid #ececec;
+  padding: 60px 0;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* МОЖЕТ БЫТЬ ПОНАДОБИТЬСЯ УМЕНЬШИТЬ БОКОВУЮ ГРАНИЦУ ДО 0,5px */

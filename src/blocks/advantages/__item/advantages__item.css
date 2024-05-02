@@ -1,0 +1,7 @@
+.advantages__item {
+  display: flex;
+  max-width: 405px;
+  justify-content: space-between;
+  gap: 27px;
+  align-items: center;
+}
