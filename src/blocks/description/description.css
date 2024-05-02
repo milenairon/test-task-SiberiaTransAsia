@@ -6,3 +6,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 540px) {
+  .description {
+    padding: 80px 19px 80px 12px;
+    margin-bottom: 0;
+  }
+}

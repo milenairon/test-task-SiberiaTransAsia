@@ -7,3 +7,13 @@
   color: #ffffff;
   letter-spacing: 0.16px;
 }
+
+@media screen and (max-width: 540px) {
+  .description__application {
+    margin-top: 20px;
+    max-width: 290px;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.1px;
+  }
+}

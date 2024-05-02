@@ -1,3 +1,5 @@
 .news__item {
   border: 1px solid #ececec;
+  max-width: 313px;
+  box-sizing: border-box;
 }

@@ -2,3 +2,9 @@
   padding: 60px 290px 60px 282px;
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 540px) {
+  .catalog {
+    padding: 80px 80px 80px 10px;
+  }
+}

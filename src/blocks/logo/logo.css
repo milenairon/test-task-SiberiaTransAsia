@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 540px) {
   .logo {
     font-size: 19px;
     line-height: 24px;

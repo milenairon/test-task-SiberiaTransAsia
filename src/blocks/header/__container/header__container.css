@@ -9,7 +9,7 @@
   gap: 10px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 540px) {
   .header__container {
     font-size: 10px;
     line-height: 14px;

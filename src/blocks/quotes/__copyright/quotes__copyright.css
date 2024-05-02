@@ -6,3 +6,10 @@
   color: #555555;
   margin: 19px auto 0;
 }
+
+@media screen and (max-width: 540px) {
+  .quotes__copyright {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

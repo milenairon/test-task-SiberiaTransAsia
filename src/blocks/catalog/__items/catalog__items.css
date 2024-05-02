@@ -1,5 +1,11 @@
 .catalog__items {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 540px) {
+  .catalog__items {
+    margin-top: 20px;
+  }
 }

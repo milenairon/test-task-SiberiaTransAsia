@@ -3,5 +3,10 @@
   max-width: 405px;
   justify-content: space-between;
   gap: 27px;
-  align-items: center;
+}
+
+@media screen and (max-width: 540px) {
+  .advantages__item {
+    max-width: 350px;
+  }
 }

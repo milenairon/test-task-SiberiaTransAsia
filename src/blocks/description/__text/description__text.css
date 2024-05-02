@@ -6,3 +6,12 @@
   max-width: 658px;
   letter-spacing: 0.36px;
 }
+
+@media screen and (max-width: 540px) {
+  .description__text {
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 329px;
+    letter-spacing: 0.18px;
+  }
+}

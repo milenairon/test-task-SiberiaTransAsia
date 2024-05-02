@@ -3,3 +3,9 @@
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
   background-color: #333333;
 }
+
+@media screen and (max-width: 540px) {
+  .footer {
+    padding: 80px 151px 80px 10px;
+  }
+}

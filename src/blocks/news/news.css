@@ -1,4 +1,10 @@
 .news {
-  padding: 60px 389px 60px 278px;
+  padding: 60px 289px 60px 278px;
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 540px) {
+  .news {
+    padding: 80px 37px 80px 10px;
+  }
 }

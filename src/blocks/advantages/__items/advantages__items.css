@@ -4,3 +4,9 @@
   gap: 30px 56px;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 540px) {
+  .advantages__items {
+    margin-top: 51px;
+  }
+}
