@@ -1,4 +1,4 @@
-// import "./index.css";
+import "./index.css";
 // import Card from "../components/Card.js";
 // import Section from "../components/Section.js";
 // import FormValidator from "../components/FormValidator.js";
@@ -6,7 +6,64 @@
 // import PopupWithForm from "../components/PopupWithForm.js";
 // import UserInfo from "../components/UserInfo.js";
 // import PopupWithDelete from "../components/PopupWithDelete.js";
-// import Api from "../components/Api.js";
+///////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////
+// import Api from "./components/Api";
+
+//ЗАПРОСЫ
+// const api = new Api({
+//   url: "https://mesto.nomoreparties.co/v1/cohort-76",
+//   headers: {
+//     authorization: "aeacf97e-5e0d-4830-af6d-c3921dcf63db",
+//     "Content-Type": "application/json",
+//   },
+// });
+
+const quotesButton = document.querySelector(".quotes__button");
+
+// Вставить цитату в tempate-элемент
+function renderQuote(quote) {
+  const quotesTemplate = document.querySelector("#quotes-template").content;
+  const quotesItems = document.querySelector(".quotes__content-items");
+
+  console.log(1);
+
+  // Клонируем содержимое тега template
+  const quotesItem = quotesTemplate
+    .querySelector(".quotes__content-item")
+    .cloneNode(true);
+
+  console.log(2);
+
+  // наполняем содержимым
+  quotesItem.querySelector(".quotes__content").textContent = quote;
+
+  // отображаем на странице
+  quotesItems.append(quotesItem);
+}
+
+// // Получить цитату через сторонний сайт
+// function getQuote() {
+//   api
+//     .getQuote() //Получить цитату
+//     .then((quote) => {
+//       console.log(quote);
+//       // cardSection.renderItems(quote.reverse()); //reverse()????
+//     })
+//     .catch((error) => {
+//       //если запрос не ушел
+//       console.log(error);
+//     });
+// }
+
+quotesButton.addEventListener("click", () => {
+  renderQuote("kk");
+//   getQuote();
+});
+///////////////////////////////////////////////////////////////////////////////////////
+//Запросы
+
 // import {
 //   profileButtonInfo,
 //   profileButtonAdd,
@@ -68,7 +125,7 @@
 // validationFormContent.enableValidation();
 // validationFormUpdateAvatar.enableValidation();
 
-// //Создание карточек с сервера
+//Создание карточек с сервера
 // const cardSection = new Section(
 //   {
 //     renderer: (item) => {
@@ -213,34 +270,3 @@
 //   profileSubTitleSelector: ".profile__subtitle",
 //   profileImageAvatarSelector: ".profile__image-avatar",
 // });
-
-// //ЗАПРОСЫ
-// const api = new Api({
-//   url: "https://mesto.nomoreparties.co/v1/cohort-76",
-//   headers: {
-//     authorization: "aeacf97e-5e0d-4830-af6d-c3921dcf63db",
-//     "Content-Type": "application/json",
-//   },
-// });
-
-// //Запросы
-// api
-//   .getProfile() //Получить мои данные
-//   .then((user) => {
-//     userInfoElement.setUserInfo(user);
-//   })
-//   .then(() => {
-//     api
-//       .getAllCards() //Получить все карточки
-//       .then((cards) => {
-//         cardSection.renderItems(cards.reverse());
-//       })
-//       .catch((error) => {
-//         //если запрос не ушел
-//         console.log(error);
-//       });
-//   })
-//   .catch((error) => {
-//     //если запрос не ушел
-//     console.log(error);
-//   });
