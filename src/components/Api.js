@@ -16,8 +16,10 @@ export default class Api {
   //Получить цитату
   getQuote() {
     return this._getRequest(`${this._url}`, {
-      method: "GET",
+      method: "POST",
       headers: this._headers,
+      body: JSON.stringify({}),
+      redirect: "follow",
     });
   }
 }

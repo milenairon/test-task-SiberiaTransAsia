@@ -4,6 +4,14 @@
   line-height: 55px;
   color: #555555;
   margin: 80px auto 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .quotes__content {
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 
 @media screen and (max-width: 540px) {
