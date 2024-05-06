@@ -1,7 +1,7 @@
 # Тестовое задание. СибирьТрансАзия
 
 <div align="center">
-<img src='/src/images/Обзор-проекта.mp4' alt='обзор проекта'>
+<img src='/src/images/Обзор-проекта.gif' alt='обзор проекта'>
 </div>
 
 ---
