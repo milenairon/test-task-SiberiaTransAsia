@@ -1,7 +1,7 @@
 # Тестовое задание. СибирьТрансАзия
 
 <div align="center">
-<img src='/src/images/Обзор одностраничного сайта на js (online-video-cutter.com).gif' alt='обзор проекта'>
+<img src='/src/images/Обзор-проекта.mp4' alt='обзор проекта'>
 </div>
 
 ---
@@ -24,11 +24,6 @@
 ---
 
 ## 2. Как запустить проект
-
-Вариант 1.
-Открыть ссылку https://milenairon.github.io/test-task-SiberiaTransAsia/
-
-Вариант 2.
 
 1. Скачайте из репозитория https://github.com/milenairon/test-task-SiberiaTransAsia папку, нажав на кнопку Code → Download ZIP
 2. Извлеките данные из папки.
